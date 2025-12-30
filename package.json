@@ -1,0 +1,25 @@
+{
+  "name": "patient_management",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Monorepo for patient management system",
+  "scripts": {
+    "format": "prettier . --write",
+    "format:check": "prettier . --check"
+  },
+  "keywords": [
+    "monorepo",
+    "postgres",
+    "redis",
+    "backend"
+  ],
+  "author": {
+    "name": "smoothie_studio",
+    "email": "mjnhdi35@gmail.com"
+  },
+  "license": "ISC",
+  "packageManager": "pnpm@10.25.0",
+  "devDependencies": {
+    "prettier": "^3.7.4"
+  }
+}

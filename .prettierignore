@@ -1,0 +1,18 @@
+# dependencies
+node_modules
+pnpm-lock.yaml
+
+# build output
+dist
+build
+coverage
+
+# infra
+infra/docker
+infra/scripts
+infra/postgres-backup
+
+# generated
+**/*.generated.ts
+**/*.d.ts
+prisma/migrations
