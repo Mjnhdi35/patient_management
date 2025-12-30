@@ -1,0 +1,24 @@
+services:
+  postgres_backup:
+    image: postgres:17-alpine
+    container_name: postgres_backup
+    restart: "no"
+
+    env_file:
+      - ../postgres/.env
+
+    volumes:
+      - ./backups:/backups
+
+    entrypoint: ["/bin/sh", "/backup.sh"]
+
+    networks:
+      - backend_network
+
+    depends_on: [] # intentionally empty
+
+    command: []
+
+networks:
+  backend_network:
+    external: true
