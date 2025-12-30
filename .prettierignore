@@ -13,6 +13,7 @@ infra/scripts
 infra/postgres-backup
 
 # generated
-**/*.generated.ts
+**/*/generated.ts
 **/*.d.ts
 prisma/migrations
+**/src/generated/**

@@ -4,7 +4,7 @@
   "private": true,
   "description": "Monorepo for patient management system",
   "scripts": {
-    "format": "prettier . --write",
+    "format:write": "prettier . --write",
     "format:check": "prettier . --check"
   },
   "keywords": [
